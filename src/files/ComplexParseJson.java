@@ -41,6 +41,6 @@ public class ComplexParseJson {
    }
    
    System.out.println("Total : "+total);
-   Assert.assertEquals(purchaseAmount, total);
+   Assert.assertEquals(total,purchaseAmount);
   }
 }
